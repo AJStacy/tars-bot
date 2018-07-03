@@ -1,0 +1,40 @@
+{
+  "name": "tars-bot",
+  "version": "0.0.1",
+  "description": "A bot for assisting developers in their daily routines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJStacy/tars-bot.git"
+  },
+  "keywords": [
+    "assistant",
+    "bot"
+  ],
+  "author": "Andrew Stacy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AJStacy/tars-bot/issues"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "tars": "./index.js"
+  },
+  "homepage": "https://github.com/AJStacy/tars-bot#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "global-modules": "^1.0.0",
+    "global-paths": "^1.0.0",
+    "immutable": "^3.8.1",
+    "inquirer": "^3.0.6",
+    "lodash": "^4.17.4",
+    "lowdb": "^0.16.2",
+    "moment": "^2.18.1",
+    "node-emoji": "^1.7.0",
+    "node-es-module-loader": "^0.3.8"
+  }
+}
