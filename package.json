@@ -2,7 +2,7 @@
   "name": "tars-bot",
   "version": "0.0.1",
   "description": "A bot for assisting developers in their daily routines.",
-  "main": "index.js",
+  "main": "src/tars.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,20 +21,30 @@
   },
   "preferGlobal": true,
   "bin": {
-    "tars": "./index.js"
+    "tars": "./src/tars.js"
   },
   "homepage": "https://github.com/AJStacy/tars-bot#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "commander": "^2.9.0",
+    "compromise": "^11.12.6",
+    "fs-jetpack": "^1.3.0",
     "global-modules": "^1.0.0",
     "global-paths": "^1.0.0",
+    "homedir": "^0.6.0",
     "immutable": "^3.8.1",
     "inquirer": "^3.0.6",
     "lodash": "^4.17.4",
-    "lowdb": "^0.16.2",
+    "lowdb": "^1.0.0",
     "moment": "^2.18.1",
     "node-emoji": "^1.7.0",
-    "node-es-module-loader": "^0.3.8"
+    "node-es-module-loader": "^0.3.8",
+    "string-template": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "typescript": "^3.2.2",
+    "typescript-eslint-parser": "^21.0.2"
   }
 }
